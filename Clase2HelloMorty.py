@@ -1,4 +1,5 @@
 #A diferencia de otros lenjuages phyton no lleva (;) 
+#Para comentar se utiliza el simbolo de # o tres comillas simples '''
 #print para imprimir una variable.
 #Hola Morty
 print('hello Morty')
