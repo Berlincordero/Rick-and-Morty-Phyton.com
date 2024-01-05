@@ -1,8 +1,8 @@
 #A diferencia de otros lenjuages phyton no lleva (;) 
 #Para comentar se utiliza el simbolo de # o tres comillas simples '''
 #print para imprimir una variable.
-#Hola Morty
-print('hello Morty')
+#Hola 
+print('hello')
 
 
 
@@ -12,9 +12,9 @@ print('hello Morty')
 #int 
 #float
 #booleano
-#En este caso ('hello Morty') se identifica como un type String
+#En este caso ('hello') se identifica como un type String
 
-print(type('hello Morty')) # tipo 'str'
+print(type('hello ')) # tipo 'str'
 #int(numero entero)
 print(type(5)) # tipo 'int'
 #float(numero con decimal)
