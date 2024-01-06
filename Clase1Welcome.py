@@ -1,4 +1,3 @@
-#EL SIQUIENTE CURSO ESTA BASADO EN EL LIBRO DE PHYTON.COM
 # vamos a imprimir una pequeña interfaz usando los conceptos basicos
 # cada linea nos van a imprimir lo que este despues del igual 
 ''' hay que tomar en cuenta el tipo de variable que vamos a imprimir
@@ -6,7 +5,7 @@ en este caso son tipo character'''
 line01 = "EL CURSO DEL LIBRO DE PHYTON.COM"
 line02 = "*************************" #Este es un tipo de header
 line03 = "**  WELCOME!           **"
-line04 = "**                     **"
+line04 = "**  By Berlin C.B      **"
 line05 = "*************************" #Este es un tipo de footer
 
 # para duplicar un parrafo o linea 
