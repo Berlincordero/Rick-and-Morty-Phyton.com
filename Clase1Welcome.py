@@ -5,7 +5,7 @@ en este caso son tipo character'''
 line01 = "EL CURSO DEL LIBRO DE PHYTON.COM"
 line02 = "*************************" #Este es un tipo de header
 line03 = "**  WELCOME!           **"
-line04 = "**  By Berlin C.B      **"
+line04 = "**  By Rick $ Morty!    **"
 line05 = "*************************" #Este es un tipo de footer
 
 # para duplicar un parrafo o linea 
