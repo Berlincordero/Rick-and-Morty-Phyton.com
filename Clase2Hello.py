@@ -6,7 +6,7 @@ print('hello')
 
 
 
-#para consultar diferentes tipos de datos 
+#Vamos a consultar diferentes tipos de datos 
 #ejemplos
 #string
 #int 
