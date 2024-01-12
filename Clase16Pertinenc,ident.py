@@ -18,3 +18,8 @@ importante notar que la igualdad == no implica que is sea True.
 '''
 
 a = [1, 2]
+b = [1, 2]
+c = a 
+
+print(a is b) # esta afirmacion es falsa por que aunque ambas variables tengan almacenados los mismos valores no se llaman igual o si?
+print(a is c) # esta afirmacion es correcta ya que c se decalra con el valor de (a)
