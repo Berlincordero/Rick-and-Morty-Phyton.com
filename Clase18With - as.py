@@ -1,6 +1,6 @@
 '''
 Context Managers: with, as
-El uso de with y as es muy utilizado a la hora de manejar ficheros,
+El uso de -with y as- es muy utilizado a la hora de manejar ficheros,
 pero en realidad pertenecen a los context managers o gestores de contexto,
 un concepto algo avanzado.
 '''

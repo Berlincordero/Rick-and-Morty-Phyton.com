@@ -5,7 +5,7 @@ Son usados para alterar la línea de ejecución del programa en función de dete
 En el siguiente ejemplo podemos ver su uso. 
 De los tres bloques, sólo se ejecutará uno de ellos, el cual cumpla la condición establecida sobre lenguaje.
 '''
-'''
+
 lenguaje = "Python"
 
 if lenguaje == "Python":
@@ -15,7 +15,7 @@ elif lenguaje== "Java":
 else: 
     print("Ningun otro lenjuage supera a python")
     #Salida: Estoy de acuerdo, Python es el mejor
-'''
+
  #Ejemplo2
  
 lenguaje = "C"

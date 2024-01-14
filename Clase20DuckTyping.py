@@ -20,3 +20,24 @@ sería razonable pensar que se trata de un pato, pero sin un test de ADN nunca e
 Una vez entendido el origen del concepto, veamos lo que realmente significa esto en Python. En pocas palabras, a Python le dan igual los tipos de los objetos, lo único que le importan son los métodos.
 Definamos una clase Pato con un método hablar().
 '''
+#Definamos una Clase Pato con metodo hablar
+
+class Pato: #declaramos nuestra clase en este caso le llamaremos Pato:
+    def hablar(self): #aqui declaramos nuestro metodo 
+        print("¡cua, cua!") # esta funcion realizara la imprension del mensaje 
+        
+        
+'''
+
+En Python, self es una convención utilizada para referirse al objeto en sí mismo dentro de una clase.
+Cuando defines métodos en una clase, el primer parámetro de cada método debe ser self. Este parámetro se refiere a la instancia de la clase
+en la que se está trabajando y permite acceder a los atributos y métodos de esa instancia.
+'''
+#Ejemplo2 
+
+#Y llamamos al método de la siguiente forma.
+
+p = Pato()
+p.hablar()
+
+#¡cua!, ¡cua!
