@@ -33,9 +33,9 @@ se almacena -1. Ese -1 podría ser una forma de indicar que
 ha habido un error con la división.
 '''
 
-a = 10
-b = 5
-c= a/b if b!=0 else -1
-print(c)
+a = 10 # colocamos el valor a la variable 
+b = 5  # colocamos el valor a la variable 
+c= a/b if b!=0 else -1 # dentro de la variable declaramos en este caso nuestra operacion seguido de nuestra condcion
+print(c) # imprimimos la variable que la almacena 
 
 
