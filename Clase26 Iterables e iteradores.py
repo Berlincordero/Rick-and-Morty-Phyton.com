@@ -85,21 +85,62 @@ elemento hasta que no se llama a next() por primera vez.
 
 '''
 
-lista = [5, 6, 3, 2]
-it = iter(lista)
-print(next(it))
+lista = [5, 6, 3, 2] #aqui tenemos una lista esto es un objeto tipo iterador y por ello hay que llamar dicha funcion a diferencia de los iterables
+it = iter(lista) # se coloca it del iterador y el objeto al que queremos iterar en este caso una lista 
+print(next(it)) # por lo tanto se va a imprimer el siguiente iterador
 #     [5, 6, 3, 2]
 #      ^
 #      |
 #     it
-print(next(it))
+print(next(it)) # y cada vez que queramos iterar un objeto imprimimos dicha funcion con el it 
 #     [5, 6, 3, 2]
 #         ^
 #         |
 #        it
-print(next(it))
+print(next(it)) # como observamos pasa al siguiente iterador de la lista 
 #     [5, 6, 3, 2]
 #            ^
 #            |
 #           it
+
+##########################################################
+#######Existen otros iteradores para diferentes clases:
+# str_iterator para cadenas (tecnicamente se refieren tipo String)
+# list_iterator para sets. (listas y conjuntos)
+# tuple_iterator para tuplas. ( colecciones de datos idénticos o distintos clasificados con un índice y que no pueden ser modificados)
+# set_iterator para sets. (conjuntos)
+# dict_keyiterator. (para diccionarios)
+
+'''
+Dado que el iterador hace referencia a nuestra lista, 
+si llamamos más veces a next() que la longitud de la lista,
+se nos devolverá un error StopIteration. 
+Lamentablemente no existe ninguna opción de volver 
+al elemento anterior.
+
+ejemplo: 
+
+lista = [5, 6]
+it = iter(lista)
+print(next(it))
+print(next(it)) como vemos al segundo next no hay numero por ello el espacio estaria en blanco y daria ese error
+#print(next(it)) # Error! StopIteration
+'''
+'''
+Es perfectamente posible tener diferentes iteradores
+para la misma lista, y serán totalmente independientes.
+Tan solo dependerán de la lista, como es evidente, 
+pero no entre ellos.
+'''
+lista = [5, 6, 7]
+it1 = iter(lista)
+it2 = iter(lista)
+
+print(next(it1)) #5 #como vemos usara lista con el iterador 1 
+print(next(it1)) #6
+print(next(it1)) #7
+print(next(it2)) #6 #como vemos usara la misma lista sin importar el iterador por lo tanto imprimira los mismo datos iterable de la lista
+
+
+
 
